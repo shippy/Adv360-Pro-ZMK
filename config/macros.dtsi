@@ -2,25 +2,25 @@ macro_cut_all: macro_cut_all{
 compatible = "zmk,behavior-macro";
 label = "macro_cut_all";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL A>, <&mt LCTRL X>;
+bindings = <&kp LC(A)>, <&kp LC(X)>;
 };
 macro_select_all: macro_select_all{
 compatible = "zmk,behavior-macro";
 label = "macro_select_all";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL A>;
+bindings = <&kp LC(A)>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL V>;
+bindings = <&kp LC(V)>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&mt LCTRL C>;
+bindings = <&kp LC(C)>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
