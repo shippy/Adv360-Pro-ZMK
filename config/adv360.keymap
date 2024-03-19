@@ -94,7 +94,7 @@
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &tog 0  &trans  &trans  &trans  &trans  &trans    &trans   &trans
  &trans  &trans  &trans  &trans  &trans  &trans &macro_copy_macos   &none  &trans  &trans  &trans  &trans   &trans   &trans
- &trans  &trans  &trans  &trans  &trans  &trans &macro_past_macos  &trans  &kp LGUI                &kp RGUI   &trans  &macro_cut_all_macos  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans &macro_paste_macos  &trans  &kp LGUI                &kp RGUI   &trans  &macro_cut_all_macos  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans                     &trans  &trans  &trans  &trans  &trans  &kp RCTRL
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans
 
