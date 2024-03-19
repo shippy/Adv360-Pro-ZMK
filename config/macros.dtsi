@@ -1,101 +1,85 @@
 macro_cut_all: macro_cut_all{
     compatible = "zmk,behavior-macro";
-    label = "macro_cut_all";
     #binding-cells = <0>;
     bindings = <&kp LC(A)>, <&kp LC(X)>;
 };
 macro_select_all: macro_select_all{
     compatible = "zmk,behavior-macro";
-    label = "macro_select_all";
     #binding-cells = <0>;
     bindings = <&kp LC(A)>;
 };
 macro_paste: macro_paste{
     compatible = "zmk,behavior-macro";
-    label = "macro_paste";
     #binding-cells = <0>;
     bindings = <&kp LC(V)>;
 };
 macro_copy: macro_copy{
     compatible = "zmk,behavior-macro";
-    label = "macro_copy";
     #binding-cells = <0>;
     bindings = <&kp LC(C)>;
 };
 macro_undo: macro_undo{
     compatible = "zmk,behavior-macro";
-    label = "macro_undo";
     #binding-cells = <0>;
     bindings = <&kp LC(Z)>;
 };
 
 macro_copy_macos: macro_copy_macos{
     compatible = "zmk,behavior-macro";
-    label = "macro_copy_macos";
     #binding-cells = <0>;
     bindings = <&kp LG(C)>;
 };
 
 macro_paste_macos: macro_paste_macos{
     compatible = "zmk,behavior-macro";
-    label = "macro_paste_macos";
     #binding-cells = <0>;
     bindings = <&kp LG(V)>;
 };
 
 macro_select_all_macos: macro_select_all_macos{
     compatible = "zmk,behavior-macro";
-    label = "macro_select_all_macos";
     #binding-cells = <0>;
     bindings = <&kp LG(A)>;
 };
 
 macro_cut_all_macos: macro_cut_all_macos{
     compatible = "zmk,behavior-macro";
-    label = "macro_cut_all_macos";
     #binding-cells = <0>;
     bindings = <&kp LG(A)>, <&kp LG(X)>;
 };
 macro_undo_macos: macro_undo_macos{
     compatible = "zmk,behavior-macro";
-    label = "macro_undo_macos";
     #binding-cells = <0>;
     bindings = <&kp LG(Z)>;
 };
 
 macro_quotes: macro_quotes{
     compatible = "zmk,behavior-macro";
-    label = "macro_quotes";
     #binding-cells = <0>;
     bindings = <&kp SQT>, <&kp SQT>, <&kp LEFT>;
 };
 macro_dquotes: macro_dquotes{
     compatible = "zmk,behavior-macro";
-    label = "macro_dquotes";
     #binding-cells = <0>;
     bindings = <&kp DQT>, <&kp DQT>, <&kp LEFT>;
 };
 macro_braces: macro_braces{
     compatible = "zmk,behavior-macro";
-    label = "macro_braces";
     #binding-cells = <0>;
     bindings = <&kp LBRC>, <&kp RBRC>, <&kp LEFT>;
 };
 macro_parens: macro_parens{
     compatible = "zmk,behavior-macro";
-    label = "macro_parens";
     #binding-cells = <0>;
     bindings = <&kp LPAR>, <&kp RPAR>, <&kp LEFT>;
 };
 macro_brackets: macro_brackets{
     compatible = "zmk,behavior-macro";
-    label = "macro_brackets";
     #binding-cells = <0>;
     bindings = <&kp LBKT>, <&kp RBKT>, <&kp LEFT>;
 };
 macro_kinesis: macro_kinesis{
     compatible = "zmk,behavior-macro";
-    label = "macro_kinesis";
     #binding-cells = <0>;
     bindings = <&kp LS(K)>, <&kp I>, <&kp N>, <&kp E>, <&kp S>, <&kp I>, <&kp S>;
 };
