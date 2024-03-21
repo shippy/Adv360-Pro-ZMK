@@ -33,7 +33,7 @@
           #binding-cells = <2>;
           require-prior-idle-ms = <125>;
           tapping-term-ms = <200>;
-          flavor = "hold-preferred";
+          flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
     };
