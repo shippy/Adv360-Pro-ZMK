@@ -11,6 +11,18 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
+#define KEYS_L   0  1  2  3  4  5  6 \
+                14 15 16 17 18 19 20 \
+                28 29 30 31 32 33 34 \
+                46 47 48 49 50 51    \
+                60 61 62 63 64
+
+#define KEYS_R   7  8  9 10 11 12 13 \
+                21 22 23 24 25 26 27 \
+                39 40 41 42 43 44 45 \
+                   54 55 56 57 58 59 \
+                      71 72 73 74 75
+
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
 };
@@ -28,13 +40,24 @@
       };
       #endif
 
-      hm: homerow_mods {
+      lhm: left_homerow_mods {
           compatible = "zmk,behavior-hold-tap";
           #binding-cells = <2>;
           require-prior-idle-ms = <125>;
           tapping-term-ms = <200>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
+          hold-trigger-key-positions = <KEYS_R>;
+      };
+
+      rhm: right_homerow_mods {
+          compatible = "zmk,behavior-hold-tap";
+          #binding-cells = <2>;
+          require-prior-idle-ms = <125>;
+          tapping-term-ms = <200>;
+          flavor = "tap-preferred";
+          bindings = <&kp>, <&kp>;
+          hold-trigger-key-positions = <KEYS_L>;
       };
       
       // For QMK-like "Space Cadet" behavior (Shift on hold, parens on tap 
@@ -55,11 +78,11 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL  &kp N1      &kp N2      &kp N3      &kp N4      &kp N5    &tog 4              &mo 3     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0       &kp MINUS
-      &kp TAB  &kp Q       &kp W       &kp E       &kp R       &kp T     &td_cut_copy                                                         &macro_select_all  &kp Y         &kp U        &kp I         &kp O        &kp P     &kp BSLH
-      &kp ESC  &hm LGUI A  &hm LALT S  &hm LCTRL D &hm LSHFT F &kp G    &macro_paste  &sc LSHIFT LPAR  &kp LCTRL  &kp RCTRL  &sc RSHIFT RPAR  &macro_cut_all     &hm RSHIFT H  &hm RCTRL J   &hm RALT K    &hm RGUI L   &kp SEMI  &kp SQT
- &kp LEFT_ALT  &kp Z       &kp X       &kp C       &kp V       &kp B                   &mt LGUI HOME   &mt RGUI PG_UP             &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
-        &mo 2  &kp GRAVE   &caps_word  &kp LEFT    &kp RIGHT   &kp BSPC  &kp DEL       &mt LALT END    &mt RALT PG_DN  &kp ENTER  &kp SPACE   &kp DOWN           &kp UP        &kp LBKT  &kp RBKT   &mo 2
+    &kp EQUAL  &kp N1       &kp N2       &kp N3       &kp N4       &kp N5    &tog 4              &mo 3     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0       &kp MINUS
+      &kp TAB  &kp Q        &kp W        &kp E        &kp R        &kp T     &td_cut_copy                                                         &macro_select_all  &kp Y         &kp U        &kp I         &kp O        &kp P     &kp BSLH
+      &kp ESC  &lhm LGUI A  &lhm LALT S  &lhm LCTRL D &lhm LSHFT F &kp G    &macro_paste  &sc LSHIFT LPAR  &kp LCTRL  &kp RCTRL  &sc RSHIFT RPAR  &macro_cut_all     &rhm RSHIFT H  &rhm RCTRL J   &rhm RALT K    &rhm RGUI L   &kp SEMI  &kp SQT
+ &kp LEFT_ALT  &kp Z        &kp X        &kp C        &kp V        &kp B                   &mt LGUI HOME   &mt RGUI PG_UP             &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
+        &mo 2  &kp GRAVE    &caps_word   &kp LEFT     &kp RIGHT    &kp BSPC  &kp DEL       &mt LALT END    &mt RALT PG_DN  &kp ENTER  &kp SPACE   &kp DOWN           &kp UP        &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
