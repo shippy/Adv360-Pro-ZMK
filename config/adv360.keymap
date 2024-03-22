@@ -11,14 +11,20 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
 
-
 /* Use the following to define the keys that will trigger the left and right homerow mods */
 #ifndef KEYS_L
-#define KEYS_L   0  1  2  3  4  5  6  14 15 16 17 18 19 20  28 29 30 31 32 33 34  46 47 48 49 50 51  60 61 62 63 64
+#define KEYS_L   0  1  2  3  4  5  6 \
+                14 15 16 17 18 19 20 \
+                28 29 30 31 32 33 34 \
+                46 47 48 49 50 51    \
+                60 61 62 63 64
 #endif
-
 #ifndef KEYS_R
-#define KEYS_R   7  8  9 10 11 12 13  21 22 23 24 25 26 27  39 40 41 42 43 44 45  54 55 56 57 58 59  71 72 73 74 75
+#define KEYS_R   7  8  9 10 11 12 13 \
+                21 22 23 24 25 26 27 \
+                39 40 41 42 43 44 45 \
+                   54 55 56 57 58 59 \
+                      71 72 73 74 75
 #endif
 
 &caps_word {
@@ -116,11 +122,11 @@
 
         layer_macos {
             bindings = <
- &trans  &trans       &trans     &trans      &trans       &trans            &tog 4                                                     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans       &trans     &trans      &trans       &trans &td_cut_copy_macos                                                    &macro_select_all_macos &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans &macro_paste_macos &trans  &kp LGUI                &kp RGUI   &trans  &macro_cut_all_macos    &hm RSHIFT H  &hm RGUI J  &hm RALT K  &hm RCTRL L  &trans  &trans
- &trans  &trans       &trans     &trans      &trans       &trans                    &mt LCTRL HOME                  &mt RCTRL PG_UP         &trans   &trans    &trans  &trans  &trans  &kp RCTRL
- &trans  &trans       &trans     &trans      &trans       &trans            &trans  &mt LALT END                    &mt RALT PG_DN  &trans  &trans   &trans    &trans  &trans  &trans  &trans
+ &trans  &trans       &trans      &trans       &trans       &trans            &tog 4                                                     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans      &trans       &trans       &trans &td_cut_copy_macos                                                    &macro_select_all_macos &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &lhm LCTRL A &lhm LALT S &lhm LGUI D  &lhm LSHFT F &trans &macro_paste_macos &trans  &kp LGUI                &kp RGUI   &trans  &macro_cut_all_macos    &rhm RSHIFT H  &rhm RGUI J  &rhm RALT K  &rhm RCTRL L  &trans  &trans
+ &trans  &trans       &trans      &trans       &trans       &trans                    &mt LCTRL HOME                  &mt RCTRL PG_UP         &trans   &trans    &trans  &trans  &trans  &kp RCTRL
+ &trans  &trans       &trans      &trans       &trans       &trans            &trans  &mt LALT END                    &mt RALT PG_DN  &trans  &trans   &trans    &trans  &trans  &trans  &trans
 
             >;
         };
