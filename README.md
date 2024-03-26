@@ -8,8 +8,8 @@
 
 For future reference, web-based GUIs available for editing the keymap: 
 
-- https://kinesiscorporation.github.io/Adv360-Pro-GUI
-- https://nickcoutsos.github.io/
+- [Kinesis' GUI](https://kinesiscorporation.github.io/Adv360-Pro-GUI)
+- [Nick Coutsos' Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 
 # Usage notes
 
