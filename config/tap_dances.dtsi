@@ -28,3 +28,11 @@ td_spotlight_input_switch_lock: tap_dance_spotlight_input_switch {
     tapping-term-ms = <200>;
     bindings = <&lam LG(LC(Q)) LG(SPACE)>, <&kp LC(SPACE)>;
 };
+
+// Keep the keypad toggle for... emergencies? On double-tap
+td_toggle_keypad_macos: tap_dance_toggle_keypad_macos {
+    compatible = "zmk,behavior-tap-dance";
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    bindings = <&tog 4>, <&tog 1>;
+};
