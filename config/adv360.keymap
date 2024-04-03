@@ -97,7 +97,7 @@
             bindings = <
  &trans  &trans       &trans     &trans      &trans       &trans            &tog 4                                                     &trans                  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans       &trans     &trans      &trans       &trans &td_cut_copy_macos                                                    &macro_select_all_macos &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans &macro_paste_macos &trans  &kp LGUI                &kp RGUI   &trans  &macro_cut_all_macos    &trans  &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
+ &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans &macro_paste_macos &trans  &kp LGUI                &kp RGUI   &trans  &td_spotlight_input_switch_lock  &trans  &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
  &trans  &trans       &trans     &trans      &trans       &trans                    &mt LCTRL HOME                  &mt RCTRL PG_UP         &trans   &trans    &trans  &trans  &trans  &kp RCTRL
  &trans  &trans       &trans     &trans      &trans       &trans            &trans  &mt LALT END                    &mt RALT PG_DN  &trans  &trans   &trans    &trans  &trans  &trans  &trans
 
