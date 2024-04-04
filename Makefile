@@ -46,7 +46,7 @@ clean: clean_firmware clean_image
 
 # Layout drawer
 assets/my_keymap.svg: assets/my_keymap.yaml
-	keymap draw $< > $@
+	keymap -c assets/my_keymap.config.yaml draw $< > $@
 
 assets/my_keymap.yaml: config/adv360.keymap
-	keymap parse -z $< > $@
+	keymap -c assets/my_keymap.config.yaml parse -z $< > $@

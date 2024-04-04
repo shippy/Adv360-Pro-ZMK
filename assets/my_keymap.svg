@@ -132,7 +132,9 @@ path.combo {
 </g>
 <g transform="translate(378, 28)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_toggle_keypad_macos</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mac/</tspan><tspan x="0" dy="1.2em">Keypad</tspan>
+</text>
 </g>
 <g transform="translate(630, 28)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -188,11 +190,11 @@ path.combo {
 </g>
 <g transform="translate(378, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_cut_copy</tspan></text>
+<text x="0" y="0" class="key tap">^C/^X</text>
 </g>
 <g transform="translate(630, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_select_undo</tspan></text>
+<text x="0" y="0" class="key tap">^A/^Z</text>
 </g>
 <g transform="translate(686, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -248,7 +250,7 @@ path.combo {
 </g>
 <g transform="translate(378, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;macro_paste</tspan></text>
+<text x="0" y="0" class="key tap">^V</text>
 </g>
 <g transform="translate(395, 280) rotate(15.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -270,7 +272,7 @@ path.combo {
 </g>
 <g transform="translate(630, 140)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;macro_cut_all</tspan></text>
+<text x="0" y="0" class="key tap">^A^X</text>
 </g>
 <g transform="translate(686, 140)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -463,7 +465,9 @@ path.combo {
 </g>
 <g transform="translate(378, 28)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_toggle_keypad_macos</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mac/</tspan><tspan x="0" dy="1.2em">Keypad</tspan>
+</text>
 </g>
 <g transform="translate(630, 28)" class="key trans keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -519,11 +523,11 @@ path.combo {
 </g>
 <g transform="translate(378, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_cut_copy_macos</tspan></text>
+<text x="0" y="0" class="key tap">⌘C/⌘X</text>
 </g>
 <g transform="translate(630, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_select_undo_macos</tspan></text>
+<text x="0" y="0" class="key tap">⌘A/⌘Z</text>
 </g>
 <g transform="translate(686, 84)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -579,7 +583,7 @@ path.combo {
 </g>
 <g transform="translate(378, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;macro_paste_macos</tspan></text>
+<text x="0" y="0" class="key tap">⌘V</text>
 </g>
 <g transform="translate(395, 280) rotate(15.0)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -599,7 +603,10 @@ path.combo {
 </g>
 <g transform="translate(630, 140)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 60%">&amp;td_spotlight_input_switch_lock</tspan></text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em" style="font-size: 78%">⌘&lt;space&gt;,</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">^&lt;space&gt;,</tspan>
+<tspan x="0" dy="1.2em" style="font-size: 78%">⌘^Q</tspan>
+</text>
 </g>
 <g transform="translate(686, 140)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1149,11 +1156,11 @@ path.combo {
 </g>
 <g transform="translate(378, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+<text x="0" y="0" class="key tap">BOOT</text>
 </g>
 <g transform="translate(630, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+<text x="0" y="0" class="key tap">BOOT</text>
 </g>
 <g transform="translate(686, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1194,9 +1201,7 @@ path.combo {
 <g transform="translate(378, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.7999999999999998em">RGB</tspan><tspan x="0" dy="1.2em">MEFS</tspan>
-<tspan x="0" dy="1.2em">CMD</tspan>
-<tspan x="0" dy="1.2em">5</tspan>
+<tspan x="0" dy="-0.6em">Check</tspan><tspan x="0" dy="1.2em">battery</tspan>
 </text>
 </g>
 <g transform="translate(395, 280) rotate(15.0)" class="key keypos-35">
@@ -1223,9 +1228,7 @@ path.combo {
 <g transform="translate(630, 140)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.7999999999999998em">RGB</tspan><tspan x="0" dy="1.2em">MEFS</tspan>
-<tspan x="0" dy="1.2em">CMD</tspan>
-<tspan x="0" dy="1.2em">5</tspan>
+<tspan x="0" dy="-0.6em">Check</tspan><tspan x="0" dy="1.2em">battery</tspan>
 </text>
 </g>
 <g transform="translate(686, 140)" class="key keypos-40">
@@ -1300,25 +1303,25 @@ path.combo {
 <g transform="translate(210, 252)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_INC</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">Up</tspan>
 </text>
 </g>
 <g transform="translate(266, 252)" class="key keypos-64">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_DEC</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">Down</tspan>
 </text>
 </g>
 <g transform="translate(319, 347) rotate(15.0)" class="key keypos-65">
 <rect rx="6" ry="6" x="-26" y="-54" width="52" height="108" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">TOG</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">On/Off</tspan>
 </text>
 </g>
 <g transform="translate(373, 361) rotate(15.0)" class="key keypos-66">
 <rect rx="6" ry="6" x="-26" y="-54" width="52" height="108" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_TOG</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">On/Off</tspan>
 </text>
 </g>
 <g transform="translate(420, 403) rotate(15.0)" class="key keypos-67">
@@ -1330,25 +1333,25 @@ path.combo {
 <g transform="translate(635, 361) rotate(-15.0)" class="key keypos-69">
 <rect rx="6" ry="6" x="-26" y="-54" width="52" height="108" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_TOG</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">On/Off</tspan>
 </text>
 </g>
 <g transform="translate(689, 347) rotate(-15.0)" class="key keypos-70">
 <rect rx="6" ry="6" x="-26" y="-54" width="52" height="108" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">TOG</tspan>
+<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">On/Off</tspan>
 </text>
 </g>
 <g transform="translate(742, 252)" class="key keypos-71">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_INC</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">Up</tspan>
 </text>
 </g>
 <g transform="translate(798, 252)" class="key keypos-72">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_DEC</tspan>
+<tspan x="0" dy="-0.6em" style="font-size: 78%">Backlight</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">Down</tspan>
 </text>
 </g>
 <g transform="translate(854, 252)" class="key keypos-73">

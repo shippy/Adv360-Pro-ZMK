@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - '&td_toggle_keypad_macos'
+  - Mac/ Keypad
   - mod
   - '6'
   - '7'
@@ -21,8 +21,8 @@ layers:
   - E
   - R
   - T
-  - '&td_cut_copy'
-  - '&td_select_undo'
+  - ^C/^X
+  - ^A/^Z
   - Y
   - U
   - I
@@ -35,12 +35,12 @@ layers:
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
   - G
-  - '&macro_paste'
+  - ^V
   - {t: (, h: LSHIFT}
   - LCTRL
   - RCTRL
   - {t: ), h: RSHIFT}
-  - '&macro_cut_all'
+  - ^A^X
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: RCTRL}
@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&td_toggle_keypad_macos'
+  - Mac/ Keypad
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,8 +98,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&td_cut_copy_macos'
-  - '&td_select_undo_macos'
+  - ⌘C/⌘X
+  - ⌘A/⌘Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,12 +112,12 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
-  - '&macro_paste_macos'
+  - ⌘V
   - {t: ▽, type: trans}
   - LGUI
   - RGUI
   - {t: ▽, type: trans}
-  - '&td_spotlight_input_switch_lock'
+  - ⌘<space>, ^<space>, ⌘^Q
   - {t: ▽, type: trans}
   - {t: J, h: RSHIFT}
   - {t: K, h: RGUI}
@@ -252,8 +252,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&bootloader'
-  - '&bootloader'
+  - BOOT
+  - BOOT
   - ''
   - ''
   - ''
@@ -266,12 +266,12 @@ layers:
   - ''
   - ''
   - ''
-  - RGB MEFS CMD 5
+  - Check battery
   - BT CLR
   - ''
   - BT CLR
   - BT CLR
-  - RGB MEFS CMD 5
+  - Check battery
   - ''
   - ''
   - ''
@@ -295,16 +295,16 @@ layers:
   - ''
   - ''
   - ''
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
-  - RGB TOG
-  - '&bl BL_TOG'
+  - Backlight Up
+  - Backlight Down
+  - RGB On/Off
+  - Backlight On/Off
   - ''
   - ''
-  - '&bl BL_TOG'
-  - RGB TOG
-  - '&bl BL_INC'
-  - '&bl BL_DEC'
+  - Backlight On/Off
+  - RGB On/Off
+  - Backlight Up
+  - Backlight Down
   - ''
   - ''
   - ''
