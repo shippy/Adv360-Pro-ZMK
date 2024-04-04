@@ -1,0 +1,387 @@
+layout: {qmk_keyboard: adv360}
+layers:
+  default:
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '&td_toggle_keypad_macos'
+  - mod
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - '&td_cut_copy'
+  - '&td_select_undo'
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - ESC
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTRL}
+  - {t: F, h: LSHFT}
+  - G
+  - '&macro_paste'
+  - {t: (, h: LSHIFT}
+  - LCTRL
+  - RCTRL
+  - {t: ), h: RSHIFT}
+  - '&macro_cut_all'
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RCTRL}
+  - {t: L, h: RALT}
+  - {t: ;, h: RGUI}
+  - ''''
+  - LEFT ALT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: HOME, h: LGUI}
+  - {t: PG UP, h: RGUI}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LEFT GUI
+  - fn
+  - '`'
+  - '&caps_word'
+  - LEFT
+  - RIGHT
+  - BSPC
+  - DEL
+  - {t: END, h: LALT}
+  - {t: PG DN, h: RALT}
+  - ENTER
+  - SPACE
+  - DOWN
+  - UP
+  - '['
+  - ']'
+  - fn
+  keypad:
+  - '='
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - mod
+  - '6'
+  - KP NUM
+  - KP EQUAL
+  - KP DIVIDE
+  - KP MULTIPLY
+  - '-'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - ''
+  - ''
+  - Y
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
+  - \
+  - ESC
+  - A
+  - S
+  - D
+  - F
+  - G
+  - ''
+  - LCTRL
+  - LALT
+  - LGUI
+  - RCTRL
+  - ''
+  - H
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - HOME
+  - PG UP
+  - N
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
+  - RSHFT
+  - fn
+  - '`'
+  - '&caps_word'
+  - LEFT
+  - RIGHT
+  - BSPC
+  - DEL
+  - END
+  - PG DN
+  - ENTER
+  - KP 0
+  - UP
+  - DOWN
+  - KP DOT
+  - ']'
+  - fn
+  fn:
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - {t: keypad, h: toggle}
+  - mod
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  mod:
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - {type: held}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RGB MEFS CMD 5
+  - BT CLR
+  - ''
+  - BT CLR
+  - BT CLR
+  - RGB MEFS CMD 5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - RGB TOG
+  - '&bl BL_TOG'
+  - ''
+  - ''
+  - '&bl BL_TOG'
+  - RGB TOG
+  - '&bl BL_INC'
+  - '&bl BL_DEC'
+  - ''
+  - ''
+  - ''
+  macos:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&td_toggle_keypad_macos'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&td_cut_copy_macos'
+  - '&td_select_undo_macos'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
+  - {t: ▽, type: trans}
+  - '&macro_paste_macos'
+  - {t: ▽, type: trans}
+  - LGUI
+  - RGUI
+  - {t: ▽, type: trans}
+  - '&td_spotlight_input_switch_lock'
+  - {t: ▽, type: trans}
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RGUI}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: HOME, h: LCTRL}
+  - {t: PG UP, h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: END, h: LALT}
+  - {t: PG DN, h: RALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
