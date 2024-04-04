@@ -77,83 +77,83 @@ layers:
   - '['
   - ']'
   - fn
-  keypad:
-  - '='
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
+  macos:
   - {t: ▽, type: trans}
-  - mod
-  - '6'
-  - KP NUM
-  - KP EQUAL
-  - KP DIVIDE
-  - KP MULTIPLY
-  - '-'
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - ''
-  - ''
-  - Y
-  - KP 7
-  - KP 8
-  - KP 9
-  - KP MINUS
-  - \
-  - ESC
-  - A
-  - S
-  - D
-  - F
-  - G
-  - ''
-  - LCTRL
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&td_toggle_keypad_macos'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&td_cut_copy_macos'
+  - '&td_select_undo_macos'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
+  - {t: ▽, type: trans}
+  - '&macro_paste_macos'
+  - {t: ▽, type: trans}
   - LGUI
+  - RGUI
+  - {t: ▽, type: trans}
+  - '&td_spotlight_input_switch_lock'
+  - {t: ▽, type: trans}
+  - {t: J, h: RSHIFT}
+  - {t: K, h: RGUI}
+  - {t: L, h: RALT}
+  - {t: ;, h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: HOME, h: LCTRL}
+  - {t: PG UP, h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - RCTRL
-  - ''
-  - H
-  - KP 4
-  - KP 5
-  - KP 6
-  - KP PLUS
-  - ''''
-  - LSHFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - HOME
-  - PG UP
-  - N
-  - KP 1
-  - KP 2
-  - KP 3
-  - KP ENTER
-  - RSHFT
-  - fn
-  - '`'
-  - '&caps_word'
-  - LEFT
-  - RIGHT
-  - BSPC
-  - DEL
-  - END
-  - PG DN
-  - ENTER
-  - KP 0
-  - UP
-  - DOWN
-  - KP DOT
-  - ']'
-  - fn
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: END, h: LALT}
+  - {t: PG DN, h: RALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   fn:
   - F1
   - F2
@@ -308,14 +308,7 @@ layers:
   - ''
   - ''
   - ''
-  macos:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&td_toggle_keypad_macos'
+  keypad:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -325,35 +318,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&td_cut_copy_macos'
-  - '&td_select_undo_macos'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
-  - {t: F, h: LSHFT}
-  - {t: ▽, type: trans}
-  - '&macro_paste_macos'
-  - {t: ▽, type: trans}
-  - LGUI
-  - RGUI
-  - {t: ▽, type: trans}
-  - '&td_spotlight_input_switch_lock'
-  - {t: ▽, type: trans}
-  - {t: J, h: RSHIFT}
-  - {t: K, h: RGUI}
-  - {t: L, h: RALT}
-  - {t: ;, h: RCTRL}
+  - KP NUM
+  - KP EQUAL
+  - KP DIVIDE
+  - KP MULTIPLY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -361,14 +329,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: HOME, h: LCTRL}
-  - {t: PG UP, h: RCTRL}
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
+  - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
+  - KP PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -376,12 +361,27 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: END, h: LALT}
-  - {t: PG DN, h: RALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - KP DOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

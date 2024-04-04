@@ -48,5 +48,5 @@ td_toggle_keypad_macos: tap_dance_toggle_keypad_macos {
     compatible = "zmk,behavior-tap-dance";
     #binding-cells = <0>;
     tapping-term-ms = <200>;
-    bindings = <&tog 4>, <&tog 1>;
+    bindings = <&tog MAC>, <&tog KPAD>;
 };
