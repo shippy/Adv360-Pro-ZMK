@@ -42,3 +42,10 @@ clean_image:
 	$(DOCKER) image rm zmk docker.io/zmkfirmware/zmk-build-arm:stable
 
 clean: clean_firmware clean_image
+
+# Layout drawer
+assets/my_keymap.svg: assets/my_keymap.yaml
+	keymap -c assets/my_keymap.config.yaml draw $< > $@
+
+assets/my_keymap.yaml: config/adv360.keymap
+	keymap -c assets/my_keymap.config.yaml parse -z $< > $@

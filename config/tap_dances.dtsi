@@ -5,9 +5,48 @@ td_cut_copy: tap_dance_cut_copy {
     bindings = <&kp LC(C)>, <&kp LC(X)>;
 };
 
+td_select_undo: tap_dance_select_undo {
+    compatible = "zmk,behavior-tap-dance";
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    bindings = <&kp LC(A)>, <&kp LC(Z)>;
+};
+
 td_cut_copy_macos: tap_dance_cut_copy_mac {
     compatible = "zmk,behavior-tap-dance";
     #binding-cells = <0>;
     tapping-term-ms = <200>;
     bindings = <&kp LG(C)>, <&kp LG(X)>;
+};
+
+td_select_undo_macos: tap_dance_select_undo_mac {
+    compatible = "zmk,behavior-tap-dance";
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    bindings = <&kp LG(A)>, <&kp LG(Z)>;
+};
+
+// Used only in tap dance below
+lam: lock_as_modifier {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    tapping-term-ms = <500>;  // increased to 500ms to avoid accidental activation
+    flavor = "tap-preferred";
+    bindings = <&kp>, <&kp>;
+    // retro-tap;  // this would actually emit LG(SPACE) again, so we don't want that
+};
+
+td_spotlight_input_switch_lock: tap_dance_spotlight_input_switch {
+    compatible = "zmk,behavior-tap-dance";
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    bindings = <&lam LG(LC(Q)) LG(SPACE)>, <&kp LC(SPACE)>;
+};
+
+// Keep the keypad toggle for... emergencies? On double-tap
+td_toggle_keypad_macos: tap_dance_toggle_keypad_macos {
+    compatible = "zmk,behavior-tap-dance";
+    #binding-cells = <0>;
+    tapping-term-ms = <200>;
+    bindings = <&tog MAC>, <&tog KPAD>;
 };

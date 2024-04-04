@@ -2,7 +2,9 @@
 
 ## My keymap
 
-![My keymap](assets/my_keymap.png)
+Generated with the [Keymap Drawer](https://keymap-drawer.streamlit.app).
+
+![My keymap](assets/my_keymap.svg)
 
 ## Modifying the keymap
 
