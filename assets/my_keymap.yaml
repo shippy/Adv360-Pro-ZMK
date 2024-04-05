@@ -35,7 +35,7 @@ layers:
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
   - G
-  - ^V
+  - LC(V)
   - {t: (, h: LSHIFT}
   - LCTRL
   - RCTRL
@@ -112,7 +112,7 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
-  - ⌘V
+  - LG(V)
   - {t: ▽, type: trans}
   - LGUI
   - RGUI
@@ -385,3 +385,7 @@ layers:
   - KP DOT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [15, 16]
+  k: LG(LS(4))
+  l: [macos]

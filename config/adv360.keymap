@@ -23,6 +23,17 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+        combo_screenshot {
+            timeout-ms = <100>;
+            // Q + W
+            key-positions = <15 16>;
+            bindings = <&kp LG(LS(N4))>;
+            layers = <MAC>;
+        };
+    };
+
     behaviors {
       #include "macros.dtsi"
       #include "tap_dances.dtsi"
@@ -49,6 +60,7 @@
           compatible = "zmk,behavior-hold-tap";
           #binding-cells = <2>;
           tapping-term-ms = <200>;
+          require-prior-idle-ms = <200>;
           flavor = "hold-preferred";
           bindings = <&kp>, <&kp>;
       };

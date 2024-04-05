@@ -53,6 +53,7 @@ parse_config:
     "&bl BL_TOG": "Backlight On/Off"
     "&bl BL_DEC": "Backlight Down"
     "&bl BL_INC": "Backlight Up"
+    "LG(LS(4))": "Screenshot"
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:

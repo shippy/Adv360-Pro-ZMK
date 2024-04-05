@@ -250,7 +250,7 @@ path.combo {
 </g>
 <g transform="translate(378, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">^V</text>
+<text x="0" y="0" class="key tap">LC(V)</text>
 </g>
 <g transform="translate(395, 280) rotate(15.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -583,7 +583,7 @@ path.combo {
 </g>
 <g transform="translate(378, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">⌘V</text>
+<text x="0" y="0" class="key tap">LG(V)</text>
 </g>
 <g transform="translate(395, 280) rotate(15.0)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -763,6 +763,10 @@ path.combo {
 <g transform="translate(973, 266)" class="key trans keypos-75">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="112" y="78" width="28" height="26" class="combo"/>
+<text x="126" y="91" class="combo tap"><tspan style="font-size: 78%">LG(LS(4))</tspan></text>
 </g>
 </g>
 </g>
