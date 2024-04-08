@@ -310,11 +310,11 @@ layers:
   - ''
   keypad:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -324,11 +324,11 @@ layers:
   - KP MULTIPLY
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '{'
+  - '}'
+  - '|'
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -338,11 +338,11 @@ layers:
   - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '#'
+  - $
+  - (
+  - )
+  - '`'
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -356,11 +356,11 @@ layers:
   - KP PLUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '%'
+  - ^
+  - '['
+  - ']'
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
