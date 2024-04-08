@@ -21,7 +21,8 @@ sc: space_cadet {
 lp: long_press_mod {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;
-    tapping-term-ms = <300>;  // increased to 500ms to avoid accidental activation
+    tapping-term-ms = <500>;  // increased to 500ms to avoid accidental activation
+    require-prior-idle-ms = <200>;
     flavor = "tap-preferred";
     bindings = <&kp>, <&kp>;
 };
