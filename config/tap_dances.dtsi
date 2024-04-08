@@ -26,21 +26,12 @@ td_select_undo_macos: tap_dance_select_undo_mac {
     bindings = <&kp LG(A)>, <&kp LG(Z)>;
 };
 
-// Used only in tap dance below
-lam: lock_as_modifier {
-    compatible = "zmk,behavior-hold-tap";
-    #binding-cells = <2>;
-    tapping-term-ms = <500>;  // increased to 500ms to avoid accidental activation
-    flavor = "tap-preferred";
-    bindings = <&kp>, <&kp>;
-    // retro-tap;  // this would actually emit LG(SPACE) again, so we don't want that
-};
-
+// Needs custom_behaviors.dtsi inclusion to work
 td_spotlight_input_switch_lock: tap_dance_spotlight_input_switch {
     compatible = "zmk,behavior-tap-dance";
     #binding-cells = <0>;
     tapping-term-ms = <200>;
-    bindings = <&lam LG(LC(Q)) LG(SPACE)>, <&kp LC(SPACE)>;
+    bindings = <&lp LG(LC(Q)) LG(SPACE)>, <&kp LC(SPACE)>;
 };
 
 // Keep the keypad toggle for... emergencies? On double-tap
