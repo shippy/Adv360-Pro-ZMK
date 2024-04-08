@@ -48,10 +48,10 @@ layers:
   - {t: ;, h: RGUI}
   - ''''
   - LEFT ALT
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: LC(Z)}
+  - {t: X, h: LC(X)}
+  - {t: C, h: LC(C)}
+  - {t: V, h: LC(V)}
   - B
   - {t: HOME, h: LGUI}
   - {t: PG UP, h: RGUI}
@@ -125,10 +125,10 @@ layers:
   - {t: ;, h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Z, h: LG(Z)}
+  - {t: X, h: LG(X)}
+  - {t: C, h: LG(C)}
+  - {t: V, h: LG(V)}
   - {t: ▽, type: trans}
   - {t: HOME, h: LCTRL}
   - {t: PG UP, h: RCTRL}
