@@ -36,10 +36,10 @@ layers:
   - {t: F, h: LSHFT}
   - G
   - LC(V)
-  - {t: (, h: LSHIFT}
-  - LCTRL
-  - RCTRL
-  - {t: ), h: RSHIFT}
+  - {t: LSHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: RCTRL, h: sticky}
+  - {t: RSHIFT, h: sticky}
   - ^A^X
   - H
   - {t: J, h: RSHFT}
@@ -47,33 +47,33 @@ layers:
   - {t: L, h: RALT}
   - {t: ;, h: RGUI}
   - ''''
-  - LEFT ALT
+  - {t: LEFT ALT, h: sticky}
   - {t: Z, h: LC(Z)}
   - {t: X, h: LC(X)}
   - {t: C, h: LC(C)}
   - {t: V, h: LC(V)}
   - B
-  - {t: HOME, h: LGUI}
-  - {t: PG UP, h: RGUI}
+  - {t: LGUI, h: sticky}
+  - {t: RGUI, h: sticky}
   - N
   - M
   - ','
   - .
   - /
-  - LEFT GUI
+  - {t: LEFT GUI, h: sticky}
   - fn
   - '`'
   - '&caps_word'
-  - LEFT
-  - RIGHT
+  - {t: LEFT, h: HOME}
+  - {t: RIGHT, h: END}
   - BSPC
   - DEL
-  - {t: END, h: LALT}
-  - {t: PG DN, h: RALT}
+  - {t: LALT, h: sticky}
+  - {t: RALT, h: sticky}
   - ENTER
   - SPACE
-  - DOWN
-  - UP
+  - {t: DOWN, h: PG DN}
+  - {t: UP, h: PG UP}
   - '['
   - ']'
   - fn
@@ -114,8 +114,8 @@ layers:
   - {t: ▽, type: trans}
   - LG(V)
   - {t: ▽, type: trans}
-  - LGUI
-  - RGUI
+  - {t: LGUI, h: sticky}
+  - {t: RGUI, h: sticky}
   - {t: ▽, type: trans}
   - ⌘<space>, ^<space>, ⌘^Q
   - {t: ▽, type: trans}
@@ -130,14 +130,14 @@ layers:
   - {t: C, h: LG(C)}
   - {t: V, h: LG(V)}
   - {t: ▽, type: trans}
-  - {t: HOME, h: LCTRL}
-  - {t: PG UP, h: RCTRL}
+  - {t: LCTRL, h: sticky}
+  - {t: RCTRL, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RCTRL
+  - {t: RCTRL, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,8 +145,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: END, h: LALT}
-  - {t: PG DN, h: RALT}
+  - {t: LALT, h: sticky}
+  - {t: RALT, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
