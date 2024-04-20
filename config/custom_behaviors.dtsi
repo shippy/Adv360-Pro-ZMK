@@ -7,7 +7,28 @@ hm: homerow_mods {
     bindings = <&kp>, <&kp>;
 };
 
-// For QMK-like "Space Cadet" behavior (Shift on hold, parens on tap)
+lhm: left_homerow_mods {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    require-prior-idle-ms = <125>;
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+    bindings = <&kp>, <&kp>;
+    hold-trigger-key-positions = <KEYS_R THUMBS_LEFT THUMBS_RIGHT>;
+    hold-trigger-on-release;  // allow chording, maybe?
+};
+rhm: right_homerow_mods {
+    compatible = "zmk,behavior-hold-tap";
+    #binding-cells = <2>;
+    require-prior-idle-ms = <125>;
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+    bindings = <&kp>, <&kp>;
+    hold-trigger-key-positions = <KEYS_L THUMBS_LEFT THUMBS_RIGHT>;
+    hold-trigger-on-release;  // allow chording, maybe?
+};
+
+// Deprecated: For QMK-like "Space Cadet" behavior (Shift on hold, parens on tap)
 sc: space_cadet {
     compatible = "zmk,behavior-hold-tap";
     #binding-cells = <2>;

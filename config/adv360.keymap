@@ -18,6 +18,27 @@
 #define MOD  3
 #define KPAD 4
 
+// Key cluster definitions
+#define KEYS_L   0  1  2  3  4  5  6 \
+                14 15 16 17 18 19 20 \
+                28 29 30 31 32 33 34 \
+                46 47 48 49 50 51    \
+                60 61 62 63 64
+
+#define THUMBS_LEFT     35 36 \
+                           52 \
+                     65 66 67 \
+
+#define KEYS_R   7  8  9 10 11 12 13 \
+                21 22 23 24 25 26 27 \
+                39 40 41 42 43 44 45 \
+                   54 55 56 57 58 59 \
+                      71 72 73 74 75
+
+#define THUMBS_RIGHT 37 38    \
+                     53       \
+                     68 69 70
+
 // Default behavior customizations
 &caps_word {
     continue-list = <UNDERSCORE MINUS>;
@@ -60,21 +81,21 @@
 
         default_layer {
             bindings = <
-    &kp EQUAL  &kp N1      &kp N2      &kp N3        &kp N4        &kp N5    &td_toggle_keypad_macos                                    &mo MOD            &kp N6     &kp N7          &kp N8        &kp N9      &kp N0         &kp MINUS
-      &kp TAB  &kp Q       &kp W       &kp E         &kp R         &kp T     &td_cut_copy                                               &td_select_undo    &kp Y      &kp U           &kp I         &kp O       &kp P          &kp BSLH
-      &kp ESC  &hm LGUI A  &hm LALT S  &hm LCTRL D   &hm LSHFT F   &kp G     &kp LC(V)     &sk LSHIFT  &sk LCTRL &sk RCTRL  &sk RSHIFT  &macro_cut_all     &kp H      &hm RSHFT J     &hm RCTRL K   &hm RALT L  &hm RGUI SEMI  &kp SQT
- &sk LEFT_ALT  &lp LC(Z) Z &lp LC(X) X &lp LC(C) C   &lp LC(V) V   &kp B                               &sk LGUI  &sk RGUI                                  &kp N      &kp M           &kp COMMA     &kp DOT     &kp FSLH       &sk LEFT_GUI
-       &mo FN  &kp GRAVE   &caps_word  &lp HOME LEFT &lp END RIGHT &kp BSPC  &kp DEL                   &sk LALT  &sk RALT               &kp ENTER          &kp SPACE  &lp PG_DN DOWN  &lp PG_UP UP  &kp LBKT    &kp RBKT       &mo FN
+    &kp EQUAL  &kp N1       &kp N2      &kp N3        &kp N4        &kp N5    &td_toggle_keypad_macos                                    &mo MOD            &kp N6     &kp N7          &kp N8        &kp N9      &kp N0         &kp MINUS
+      &kp TAB  &kp Q        &kp W       &kp E         &kp R         &kp T     &td_cut_copy                                               &td_select_undo    &kp Y      &kp U           &kp I         &kp O       &kp P          &kp BSLH
+      &kp ESC  &lhm LGUI A  &lhm LALT S &lhm LCTRL D  &lhm LSHFT F  &kp G     &kp LC(V)     &sk LSHIFT  &sk LCTRL &sk RCTRL  &sk RSHIFT  &macro_cut_all     &kp H      &rhm RSHFT J    &rhm RCTRL K  &rhm RALT L &rhm RGUI SEMI &kp SQT
+ &sk LEFT_ALT  &lp LC(Z) Z  &lp LC(X) X &lp LC(C) C   &lp LC(V) V   &kp B                               &sk LGUI  &sk RGUI                                  &kp N      &kp M           &kp COMMA     &kp DOT     &kp FSLH       &sk LEFT_GUI
+       &mo FN  &kp GRAVE    &caps_word  &lp HOME LEFT &lp END RIGHT &kp BSPC  &kp DEL                   &sk LALT  &sk RALT               &kp ENTER          &kp SPACE  &lp PG_DN DOWN  &lp PG_UP UP  &kp LBKT    &kp RBKT       &mo FN
             >;
         };
 
         layer_macos {
             bindings = <
- &trans  &trans       &trans     &trans      &trans       &trans  &td_toggle_keypad_macos                                 &trans                  &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &trans       &trans     &trans      &trans       &trans  &td_cut_copy_macos                                      &td_select_undo_macos   &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans  &kp LG(V)          &trans  &sk LGUI  &sk RGUI   &trans  &td_spotlight_input_switch_lock  &trans  &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
- &trans  &lp LG(Z) Z &lp LG(X) X &lp LG(C) C &lp LG(V) V  &trans                             &sk LCTRL &sk RCTRL                                  &trans   &trans  &trans  &trans  &trans  &sk RCTRL
- &trans  &trans       &trans     &trans      &trans       &trans  &trans                     &sk LALT  &sk RALT           &trans                  &trans   &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans      &trans      &trans       &trans  &td_toggle_keypad_macos                                 &trans                  &trans   &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans      &trans      &trans       &trans  &td_cut_copy_macos                                      &td_select_undo_macos   &trans   &trans  &trans  &trans  &trans  &trans
+ &trans  &lhm LCTRL A &lhm LALT S &lhm LGUI D &lhm LSHFT F &trans  &kp LG(V)          &trans  &sk LGUI  &sk RGUI   &trans  &td_spotlight_input_switch_lock  &trans  &rhm RSHIFT J  &rhm RGUI K  &rhm RALT L  &rhm RCTRL SEMI  &trans
+ &trans  &lp LG(Z) Z  &lp LG(X) X &lp LG(C) C &lp LG(V) V  &trans                             &sk LCTRL &sk RCTRL                                  &trans   &trans  &trans  &trans  &trans  &sk RCTRL
+ &trans  &trans       &trans      &trans      &trans       &trans  &trans                     &sk LALT  &sk RALT           &trans                  &trans   &trans  &trans  &trans  &trans  &trans
 
             >;
         };
