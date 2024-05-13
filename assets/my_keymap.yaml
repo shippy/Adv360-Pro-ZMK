@@ -35,7 +35,7 @@ layers:
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
   - G
-  - LC(V)
+  - Ctl+ V
   - {t: LSHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -44,14 +44,14 @@ layers:
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: RCTRL}
-  - {t: L, h: RALT}
+  - {t: L, h: LALT}
   - {t: ;, h: RGUI}
   - ''''
   - {t: LEFT ALT, h: sticky}
-  - {t: Z, h: LC(Z)}
-  - {t: X, h: LC(X)}
-  - {t: C, h: LC(C)}
-  - {t: V, h: LC(V)}
+  - {t: Z, h: Ctl+ Z}
+  - {t: X, h: Ctl+ X}
+  - {t: C, h: Ctl+ C}
+  - {t: V, h: Ctl+ V}
   - B
   - {t: LGUI, h: sticky}
   - {t: RGUI, h: sticky}
@@ -112,7 +112,7 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
-  - LG(V)
+  - Gui+ V
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
   - {t: RGUI, h: sticky}
@@ -121,14 +121,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: J, h: RSHIFT}
   - {t: K, h: RGUI}
-  - {t: L, h: RALT}
+  - {t: L, h: LALT}
   - {t: ;, h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Z, h: LG(Z)}
-  - {t: X, h: LG(X)}
-  - {t: C, h: LG(C)}
-  - {t: V, h: LG(V)}
+  - {t: Z, h: Gui+ Z}
+  - {t: X, h: Gui+ X}
+  - {t: C, h: Gui+ C}
+  - {t: V, h: Gui+ V}
   - {t: ▽, type: trans}
   - {t: LCTRL, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -202,9 +202,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -218,16 +218,16 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - VOL DN
+  - VOL UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRI DN
+  - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -282,7 +282,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&macro_ver'
   - ''
   - ''
   - ''
@@ -387,5 +387,5 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [15, 16]
-  k: LG(LS(4))
+  k: Gui+Sft+ 4
   l: [macos]
