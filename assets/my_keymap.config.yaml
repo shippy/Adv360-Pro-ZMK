@@ -54,6 +54,18 @@ parse_config:
     "&bl BL_DEC": "Backlight Down"
     "&bl BL_INC": "Backlight Up"
     "LG(LS(4))": "Screenshot"
+
+    "&cs_aa": "á"
+    "&cs_ea": "é"
+    "&cs_ia": "í"
+    "&cs_oa": "ó"
+    "&cs_ua": "ú"
+    "&cs_ya": "ý"
+    "&cs_rc": "ř"
+    "&cs_sc": "š"
+    "&cs_tc": "ť"
+    "&cs_zc": "ž"
+    "&cs_dc": "ď"
   sticky_label: sticky
   toggle_label: toggle
   trans_legend:
