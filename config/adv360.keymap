@@ -27,6 +27,8 @@
     quick-release;
 };
 
+#define HYPER LS(LC(LA(LG)))
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -62,7 +64,7 @@
             bindings = <
     &kp EQUAL  &kp N1      &kp N2      &kp N3        &kp N4        &kp N5    &td_toggle_keypad_macos                                    &mo MOD            &kp N6     &kp N7          &kp N8        &kp N9      &kp N0         &kp MINUS
       &kp TAB  &kp Q       &kp W       &kp E         &kp R         &kp T     &td_cut_copy                                               &td_select_undo    &kp Y      &kp U           &kp I         &kp O       &kp P          &kp BSLH
-      &kp ESC  &hm LGUI A  &hm LALT S  &hm LCTRL D   &hm LSHFT F   &kp G     &kp LC(V)     &sk LSHIFT  &sk LCTRL &sk RCTRL  &sk RSHIFT  &macro_cut_all     &kp H      &hm RSHFT J     &hm RCTRL K   &hm RALT L  &hm RGUI SEMI  &kp SQT
+&hm HYPER ESC  &hm LGUI A  &hm LALT S  &hm LCTRL D   &hm LSHFT F   &kp G     &kp LC(V)     &sk LSHIFT  &sk LCTRL &sk RCTRL  &sk RSHIFT  &macro_cut_all     &kp H      &hm RSHFT J     &hm RCTRL K   &hm RALT L  &hm RGUI SEMI  &kp SQT
  &sk LEFT_ALT  &lp LC(Z) Z &lp LC(X) X &lp LC(C) C   &lp LC(V) V   &kp B                               &sk LGUI  &sk RGUI                                  &kp N      &kp M           &kp COMMA     &kp DOT     &kp FSLH       &sk LEFT_GUI
        &mo FN  &kp GRAVE   &caps_word  &lp HOME LEFT &lp END RIGHT &kp BSPC  &kp DEL                   &sk LALT  &sk RALT               &kp ENTER          &kp SPACE  &lp PG_DN DOWN  &lp PG_UP UP  &kp LBKT    &kp RBKT       &mo FN
             >;
@@ -71,7 +73,7 @@
         layer_macos {
             bindings = <
  &trans  &trans       &trans     &trans      &trans       &trans  &td_toggle_keypad_macos                                 &trans                  &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &trans       &trans     &trans      &trans       &trans  &td_cut_copy_macos                                      &td_select_undo_macos   &trans   &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans     &trans      &trans       &trans  &td_cut_copy_macos                                      HYPER                   &trans   &trans  &trans  &trans  &trans  &trans
  &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans  &kp LG(V)          &trans  &sk LGUI  &sk RGUI   &trans  &td_spotlight_input_switch_lock  &trans  &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
  &trans  &lp LG(Z) Z &lp LG(X) X &lp LG(C) C &lp LG(V) V  &trans                             &sk LCTRL &sk RCTRL                                  &trans   &trans  &trans  &trans  &trans  &sk RCTRL
  &trans  &trans       &trans     &trans      &trans       &trans  &trans                     &sk LALT  &sk RALT           &trans                  &trans   &trans  &trans  &trans  &trans  &trans
