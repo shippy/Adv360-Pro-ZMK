@@ -73,7 +73,7 @@
         layer_macos {
             bindings = <
  &trans  &trans       &trans     &trans      &trans       &trans  &td_toggle_keypad_macos                                 &trans                  &trans   &trans  &trans  &trans  &trans  &trans
- &trans  &trans       &trans     &trans      &trans       &trans  &td_cut_copy_macos                                      HYPER                   &trans   &trans  &trans  &trans  &trans  &trans
+ &trans  &trans       &trans     &trans      &trans       &trans  &td_cut_copy_macos                                      &sk HYPER               &trans   &trans  &trans  &trans  &trans  &trans
  &trans  &hm LCTRL A  &hm LALT S &hm LGUI D  &hm LSHFT F  &trans  &kp LG(V)          &trans  &sk LGUI  &sk RGUI   &trans  &td_spotlight_input_switch_lock  &trans  &hm RSHIFT J  &hm RGUI K  &hm RALT L  &hm RCTRL SEMI  &trans
  &trans  &lp LG(Z) Z &lp LG(X) X &lp LG(C) C &lp LG(V) V  &trans                             &sk LCTRL &sk RCTRL                                  &trans   &trans  &trans  &trans  &trans  &sk RCTRL
  &trans  &trans       &trans     &trans      &trans       &trans  &trans                     &sk LALT  &sk RALT           &trans                  &trans   &trans  &trans  &trans  &trans  &trans
