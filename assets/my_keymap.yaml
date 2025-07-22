@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: adv360}
+layout: {zmk_keyboard: adv360}
 layers:
   default:
   - '='
@@ -29,13 +29,13 @@ layers:
   - O
   - P
   - \
-  - ESC
+  - {t: ESC, h: Gui+Ctl+Alt+LSHIFT}
   - {t: A, h: LGUI}
   - {t: S, h: LALT}
   - {t: D, h: LCTRL}
   - {t: F, h: LSHFT}
   - G
-  - LC(V)
+  - Ctl+V
   - {t: LSHIFT, h: sticky}
   - {t: LCTRL, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -48,10 +48,10 @@ layers:
   - {t: ;, h: RGUI}
   - ''''
   - {t: LEFT ALT, h: sticky}
-  - {t: Z, h: LC(Z)}
-  - {t: X, h: LC(X)}
-  - {t: C, h: LC(C)}
-  - {t: V, h: LC(V)}
+  - {t: Z, h: Ctl+Z}
+  - {t: X, h: Ctl+X}
+  - {t: C, h: Ctl+C}
+  - {t: V, h: Ctl+V}
   - B
   - {t: LGUI, h: sticky}
   - {t: RGUI, h: sticky}
@@ -99,7 +99,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ⌘C/⌘X
-  - ⌘A/⌘Z
+  - Gui+Ctl+Alt+LSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,7 +112,7 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
-  - LG(V)
+  - Gui+V
   - {t: ▽, type: trans}
   - {t: LGUI, h: sticky}
   - {t: RGUI, h: sticky}
@@ -125,10 +125,10 @@ layers:
   - {t: ;, h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Z, h: LG(Z)}
-  - {t: X, h: LG(X)}
-  - {t: C, h: LG(C)}
-  - {t: V, h: LG(V)}
+  - {t: Z, h: Gui+Z}
+  - {t: X, h: Gui+X}
+  - {t: C, h: Gui+C}
+  - {t: V, h: Gui+V}
   - {t: ▽, type: trans}
   - {t: LCTRL, h: sticky}
   - {t: RCTRL, h: sticky}
@@ -387,5 +387,5 @@ layers:
   - {t: ▽, type: trans}
 combos:
 - p: [15, 16]
-  k: LG(LS(4))
+  k: Gui+Sft+4
   l: [macos]
